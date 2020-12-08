@@ -56,6 +56,29 @@ public class LinkedList {
 		}
 		
 	}
+public void delete(int index) {
+		
+		Node n1 = null;
+		
+		if(index == 0) {
+			
+			head = head.next;
+			
+		}
+		else {
+			Node n = head;
+			
+			for(int i=0;i<index-1;i++) {
+				n=n.next;
+			}
+			n1 = n.next;
+			n.next = n1.next;
+			n1=null;
+			
+		}
+		
+	}
+
 
 	public void show() {
 		
