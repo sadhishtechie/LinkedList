@@ -8,6 +8,9 @@ public class Runner {
 		list.insert(5);
 		list.insert(20);
 		list.insert(58);
+		list.insertAtStart(25);
+		list.insertAt(0, 98);
+		list.insertAt(2, 15);
 		list.show();
 		//System.out.println(list.size());
 		//System.out.println(list);
